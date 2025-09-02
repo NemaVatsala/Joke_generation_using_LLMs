@@ -1,4 +1,23 @@
+from __future__ import annotations
+
+import argparse
+import asyncio
+import dataclasses
+import datetime as dt
+import hashlib
+import json
+import math
+import os
+import random
+import re
+import sys
+import textwrap
+from collections import Counter, defaultdict
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 from utils import * 
+
 
 COMEDIC_DEVICES = [
     "misdirection",

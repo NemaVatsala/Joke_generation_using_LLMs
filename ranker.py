@@ -17,6 +17,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 from utils import * 
+from joke_plan import * 
 
 class BiasAwareJudge:
     """Pairwise judging with order randomization, AB/BA inversion and jury aggregation.
